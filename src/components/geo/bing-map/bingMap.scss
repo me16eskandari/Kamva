@@ -1,0 +1,21 @@
+$button-color:  #0F94E9;
+.map-wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    a.clear-button{
+        position: absolute;
+        z-index: 1;
+        top: 5px;
+        left: 5px;
+        background-color: $button-color;
+        font-size: 0.8em;
+        padding: 5px;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none;
+        &:hover{
+            background-color: darken($color: $button-color, $amount: 10);
+        }
+    }
+}
