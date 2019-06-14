@@ -1,9 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-This project have 4 main directories under src:
-  --  components: where all components such as BingMap placed in.
-  --  containers: Containers (pages) placed in here.
-  --  Models: Models for props and state placed in here.
-  --  Service: GeoLocationApi which provide user location, and BingMapLoader which is a static class and load necassary script for bing map placed in here.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). <br/>
+This project have 4 main directories under src:<br/>
+  --  components: where all components such as BingMap placed in.<br/>
+  --  containers: Containers (pages) placed in here.<br/>
+  --  Models: Models for props and state placed in here.<br/>
+  --  Service: GeoLocationApi which provide user location, and BingMapLoader which is a static class and load necassary script for bing map placed in here.<br/>
 
 
 ## Available Scripts
@@ -52,8 +52,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## جواب سوالات
 
-در صورت عوض کردن GeocodeAPI تنها نیاز به تغییر سرویس مربوط به دریافت مکان کاربر در فایل  geoLoactionApi است. و باقی کامپاننت  و سرویسی نیازی به تغییر ندارن.
+در صورت عوض کردن GeocodeAPI تنها نیاز به تغییر سرویس مربوط به دریافت مکان کاربر در فایل  geoLoactionApi است. و باقی کامپاننت  و سرویسی نیازی به تغییر ندارن.<br/>
 
-نقشه گوگل به دلیل نیاز حساب billing قابل استفاده نبود.
-در صورت نیاز به تغییر نقشه کافیست متودهای مربوط به لود اسکریپت، افزودن/حذف مارکر (maker)، نحوه دسترسی به اطلاعت آدرس  کاربر متناسب با نقشه جدید تغییر پیدا کنند.
+نقشه گوگل به دلیل نیاز حساب billing قابل استفاده نبود.<br/>
+در صورت نیاز به تغییر نقشه کافیست متودهای مربوط به لود اسکریپت، افزودن/حذف مارکر (maker)، نحوه دسترسی به اطلاعت آدرس  کاربر متناسب با نقشه جدید تغییر پیدا کنند.<br/>
 به نظر بنده برای تغییر geocodeApi حداکثر 1 ساعت و برای تغییر نقشه با توجه به امکانات نقشه جدید بین 1 تا 2 ساعت زمان نیاز است.
